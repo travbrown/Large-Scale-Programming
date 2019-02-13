@@ -1,5 +1,6 @@
-public class orderChecker{
-    orderChecker(){};
+//package Users.travisbrown.hucode.lsp.hw1;
+
+public class OrderChecker{
 
     /**
      * The following method determines if the 
