@@ -5,7 +5,7 @@ public class orderChecker{
      * The following method determines if the 
      * contents of the array are in descending order.
      */
-    public boolean isDescending(int [] list){
+    public static boolean isDescending(int [] list){
       boolean array_descending_so_far = true;
       for(int i = 1; i < list.length; i++ ){
           if(list[i] > list[i-1]){
@@ -20,7 +20,7 @@ public class orderChecker{
      * The following method determines if the
      * contents of the array are in ascending order.
      */
-    public boolean isAscending(int [] list){
+    public static boolean isAscending(int [] list){
       boolean array_ascending_so_far = true;
       for(int i = 1; i < list.length; i++ ){
           if(list[i] < list[i-1]){

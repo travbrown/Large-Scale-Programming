@@ -1,3 +1,7 @@
+/**
+ * Coded by Travis Brown @02822994 for SYCS363
+ * 
+ */
 class Main {
     public static void main(String[] args) {
         int[] Pluto = new int[] {1,2,3,4,5};
@@ -36,7 +40,6 @@ class Main {
      * @param container
      */
     public static void WhiteBox(int [] container){
-        orderChecker checker = new orderChecker();
         if (container.length == 0 || container == null) {
             System.out.println("Array is empty or null");
         } else if (container.length == 1) {
@@ -57,7 +60,7 @@ class Main {
                 }
             }
 
-            if (checker.isAscending(container) ) {
+            if (orderChecker.isAscending(container) ) {
                 System.out.println("is in ascending order");
             } else {
                 System.out.println("is not in ascending order");
@@ -73,7 +76,7 @@ class Main {
                 }
             }
 
-            if (checker.isDescending(container)) {
+            if (orderChecker.isDescending(container)) {
                 System.out.println("is in descending order");
             } else {
                 System.out.println("is not in descending order");
